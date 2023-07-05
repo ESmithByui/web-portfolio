@@ -63,6 +63,7 @@ nav a:hover{
     padding: 40px;
     font-size: 1.2em;
     display: block;
+    padding: 5px 40px;
 }
 .drop-content a:hover {
     background-color: #65C332;
