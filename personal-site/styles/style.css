@@ -202,3 +202,57 @@ footer a img {
     width: 100%;
 
 }
+
+.continent-title {
+    font-family: "Playball";
+    font-weight: bold;
+    font-size: 6em;
+    color: #0C090B;
+    text-align: center;
+}
+#continent-opening {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+#continent-opening p {
+    padding: 5px;
+    color: #D4F5F5;
+    font-size: 1.5em;
+}
+.continent-image {
+    width: 100%;
+}
+
+#nations {
+    text-align: center;
+    margin-top: 100px;
+}
+.nation {
+    margin: 30px;
+    background-color: #D4F5F5;
+    border: 1px solid #235789;
+    box-shadow: 5px 5px 10px #235789;
+}
+.nation-even {
+    background-color: #558564;
+}
+.nation-title {
+    color: #0C090B;
+    font-size: 3em;
+    font-family: "Playball";
+    margin: 0;
+}
+.nation-img {
+    width: 70px;
+}
+.nation-description {
+    margin: 0;
+    font-size: 1.2em;
+    padding: 10px;
+    color: #235789;
+}
+.nation-even .nation-description {
+    color: #D4F5F5;
+}
