@@ -256,3 +256,76 @@ footer a img {
 .nation-even .nation-description {
     color: #D4F5F5;
 }
+
+.about-me-title {
+    font-family: "Playball";
+    font-weight: bold;
+    font-size: 6em;
+    color: #0C090B;
+    text-align: center;
+}
+.about-section {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: .2fr 10px 1fr 10px;
+    background-color: #235789;
+    padding: 10px;
+    border: 1px solid #65C332;
+}
+.about-topic {
+    grid-column: 1/15;
+    grid-row: 1/2;
+    margin: 0;
+    font-family: "Playball";
+    font-weight: bold;
+    font-size: 4em;
+    color: #0C090B;
+    text-align: center;
+    z-index: 2;
+    padding-bottom: 10px;
+}
+.about-emory {
+    grid-column: 1/10;
+    grid-row: 3/4;
+    z-index: 1;
+    background-color: #D4F5F5;
+    color: #0C090B;
+    font-size: 1.5em;
+    border: 10px solid #558564;
+    border-radius: 30px;
+    padding: 20px;
+}
+.about-emory-img {
+    grid-column: 9/13;
+    grid-row: 2/5;
+    width: 100%;
+}
+.about-dnd {
+    grid-column: 4/13;
+    grid-row: 3/4;
+    z-index: 1;
+    background-color: #D4F5F5;
+    color: #0C090B;
+    font-size: 1.5em;
+    border: 10px solid #558564;
+    border-radius: 30px;
+    padding: 20px;
+}
+.about-dnd-img {
+    grid-column: 1/5;
+    grid-row: 2/5;
+    width: 100%;
+}
+.about-project {
+    grid-column: 1/13;
+    grid-row: 2/5;
+    z-index: 1;
+    background-color: #D4F5F5;
+    color: #0C090B;
+    font-size: 1.5em;
+    border: 10px solid #558564;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 0 20px;
+}
