@@ -111,7 +111,6 @@ nav a:hover{
     margin: 30px;
     
 }
-
 .section-title {
     margin: 30px;
     text-align: center;
@@ -119,7 +118,6 @@ nav a:hover{
     font-family: "Playball";
     font-size: 4em;
 }
-
 #continents {
     display: flex;
     flex-wrap: wrap;
@@ -175,7 +173,6 @@ nav a:hover{
     grid-row: 1/5;
     background-color: #65C332;
 }
-
 footer {
     background-color: #235789;
     display: flex;
@@ -202,7 +199,6 @@ footer a img {
     width: 100%;
 
 }
-
 .continent-title {
     font-family: "Playball";
     font-weight: bold;
@@ -256,7 +252,6 @@ footer a img {
 .nation-even .nation-description {
     color: #D4F5F5;
 }
-
 .about-me-title {
     font-family: "Playball";
     font-weight: bold;
